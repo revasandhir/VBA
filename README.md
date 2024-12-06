@@ -1,5 +1,4 @@
-# customer_accounts.bas 
-
+1. customer_accounts.bas 
 This script identifies customers with outstanding balances greater than $1,000 and outputs the results to the "Results" sheet.
 
 ## Description
@@ -22,9 +21,7 @@ The script dynamically processes customer account data from the "Accounts" sheet
 ### Dependencies
 - Microsoft Excel with VBA enabled
 
-- # recent_sales.bas
-- # Recent Sales VBA Project
-
+2. recent_sales.bas
 This VBA project replicates the functionality of the "Recent Sales Finished" file, allowing users to summarize sales by sales reps in various states.
 
 ## Features
