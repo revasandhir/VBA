@@ -1,25 +1,23 @@
-# Customer Accounts Analysis
+# q1_customer_accounts.bas
 
-This VBA project identifies customers with outstanding balances over $1,000 and generates a report on the "Results" sheet. 
+This script identifies customers with outstanding balances greater than $1,000 and outputs the results to the "Results" sheet.
 
 ## Description
-
-The "Accounts" sheet contains customer account data with the following fields:
+The script dynamically processes customer account data from the "Accounts" sheet, which includes:
 - Customer ID
-- Dollar value of customer purchases in the current year
-- Dollar amount paid for these purchases
+- Dollar value of purchases
+- Dollar amount paid
 
-### Example
-- **Customer 1302:** Purchased $2,466 worth of goods and has paid the full amount.
-- **Customer 2245:** Purchased $1,494 worth of goods but has only paid $598, leaving an outstanding balance.
-
-### Key Features
-- The script outputs a list of customers who owe strictly more than $1,000.
-- The results include both the customer ID and the dollar amount outstanding.
-- Previous outputs on the "Results" sheet are cleared before generating new results.
-- The code dynamically adjusts to changes in the "Accounts" data, such as adding or removing customers.
+### Features
+- Clears any previous output from the "Results" sheet.
+- Lists customers with balances greater than $1,000.
+- Adapts to changes in the "Accounts" data (e.g., addition or removal of rows).
 
 ## How to Use
-1. Place the code in the VBA editor of your Excel workbook.
-2. Ensure the "Accounts" and "Results" sheets are properly named and formatted.
-3. Run the script to generate the results.
+1. Open the VBA editor in Excel.
+2. Copy the code into a module.
+3. Ensure the "Accounts" and "Results" sheets are formatted as expected.
+4. Run the script to view results.
+
+### Dependencies
+- Microsoft Excel with VBA enabled
