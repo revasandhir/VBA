@@ -1,9 +1,10 @@
-1. customer_accounts.bas
+##1. customer_accounts.bas
    
 This script identifies customers with outstanding balances greater than $1,000 and outputs the results to the "Results" sheet.
 
 Description
--The script dynamically processes customer account data from the "Accounts" sheet, which includes:
+
+The script dynamically processes customer account data from the "Accounts" sheet, which includes:
 - Customer ID
 - Dollar value of purchases
 - Dollar amount paid
